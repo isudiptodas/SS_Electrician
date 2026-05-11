@@ -8,7 +8,7 @@ function page() {
                 {/* navbar with logo */}
                 <nav className={`w-full z-40 fixed h-auto flex justify-center items-center gap-2 py-5 backdrop-blur-2xl bg-white/20`}>
                     <img src="/assets/logo.png" className={`h-7`} />
-                    <p className={`w-auto select-none text-lg font-Apple`}>SS ELECTRICIAN</p>
+                    <p className={`w-auto select-none text-lg`}>SS ELECTRICIAN</p>
                 </nav>
 
                 {/* privacy section */}
