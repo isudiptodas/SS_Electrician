@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Strong";
+  src: url("/fonts/Strong.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Apple-Garamond";
+  src: url("/fonts/AppleGaramond.ttf") format("truetype");
+}
+
+@theme {
+  --font-Apple: "Apple-Garamond"; 
+  --font-Strong: "Strong"; 
+}

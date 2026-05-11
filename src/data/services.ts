@@ -1,0 +1,21 @@
+export const services = [
+  "LED TV Repair",
+  "TV Wall Installation",
+  "House Wiring",
+  "Switchboard Installation",
+  "Light Installation",
+  "Fan Installation",
+  "Electrical Repairs",
+  "Socket & Switch Repair",
+  "Power Fault Checking",
+  "MCB Installation",
+  "Door Bell Installation",
+  "Inverter Wiring",
+  "AC Power Connection",
+  "Exhaust Fan Installation",
+  "Cable Management",
+  "Electrical Safety Inspection",
+  "Short Circuit Repair",
+  "Old Wiring Replacement",
+  "Appliance Power Setup"
+];
