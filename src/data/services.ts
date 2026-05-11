@@ -1,5 +1,4 @@
 export const services = [
-  "LED TV Repair",
   "TV Wall Installation",
   "House Wiring",
   "Switchboard Installation",
