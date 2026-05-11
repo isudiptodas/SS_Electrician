@@ -45,7 +45,7 @@ function page() {
   }
 
   const mail = () => {
-    window.open(`mail`, "_blank")
+    window.open(`mailto:das.sanjib4294@gmail.com`, "_blank")
   }
 
   const services = [
