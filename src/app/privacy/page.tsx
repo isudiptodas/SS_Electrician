@@ -23,7 +23,7 @@ function page() {
                         <h3 className={`font-bold mb-2`}>Data Security</h3>
                         <p className={`mb-4`}>We take reasonable measures to protect your information from unauthorized access or disclosure.</p>
                         <h3 className={`font-bold mb-2`}>Contact Us</h3>
-                        <p>If you have any questions about this policy, please contact us at +91 79805 33030.</p>
+                        <p>If you have any questions about this policy, please contact us at <b>+91 79805 33030.</b></p>
                     </div>
                 </div>
                 <Link href='/' className={`w-full text-center text-sm cursor-pointer select-none text-black opacity-60`}>Go back to homepage</Link>

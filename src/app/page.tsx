@@ -105,6 +105,11 @@ function page() {
       return;
     }
 
+    if(contact.length < 10){
+      toast.error("Contact number should not be less than 10 digits");
+      return;
+    }
+
     let id = toast.loading(`Submitting form ...`);
 
     try {
@@ -115,13 +120,12 @@ function page() {
         message: message.trim(),
       });
 
-      console.log(res);
       if(res.status === 200){
         toast.dismiss(id);
         toast.success("Form submitted");
       }
     } catch (err: any) {
-      console.log(err);
+      toast.error("Problem sending email. Please try again later")
     }
     finally{
       toast.dismiss(id);
@@ -255,7 +259,7 @@ function page() {
               </motion.div>
             </div>
 
-            <textarea onChange={(e) => setMessage(e.target.value)} value={message} className={`w-full h-56 rounded-2xl bg-gray-200 px-4 py-3 outline-none text-sm`} placeholder="Enter your message*" />
+            <textarea onChange={(e) => setMessage(e.target.value)} value={message} className={`w-full h-56 rounded-2xl bg-gray-200 px-4 py-3 outline-none text-sm`} placeholder="Explain more about your problem*" />
             <p onClick={submitForm} className={`w-full active:opacity-80 duration-200 ease-in-out rounded-full bg-linear-to-r from-[#1158ff] to-[#002c93] text-center py-3 text-white cursor-pointer select-none`}>Submit</p>
           </div>
         </div>
