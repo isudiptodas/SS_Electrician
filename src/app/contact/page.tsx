@@ -16,9 +16,9 @@ function page() {
                     <h2 className={`w-full tracking-tighter text-center font-bold text-4xl xl:text-5xl px-6 mb-5`}>CONTACT US</h2>
                     <div className={`w-full lg:w-[80%] px-6 md:px-20 text-center text-[12px] md:text-sm xl:text-lg text-black`}>
                         <p className={`mb-4 text-[12px] lg:text-sm`}>Get in touch for all your electrical needs.</p>
-                        <p className={`mb-2 text-[12px] lg:text-sm`}>Phone: +91 79805 33030</p>
-                        <p className={`mb-4 text-[12px] lg:text-sm`}>Email: </p>
-                        <p>Feel free to call or email us for a free quote or consultation.</p>
+                        <p className={`mb-2 text-[12px] lg:text-sm`}>Phone: <b>+91 79805 33030</b></p>
+                        <p className={`mb-4 text-[12px] lg:text-sm`}>Email: <b>das.sanjib4294@gmail.com</b></p>
+                        <p className={`mb-4 text-[12px] lg:text-sm`}>Feel free to call or email us for a free quote or consultation.</p>
                     </div>
                 </div>
 
