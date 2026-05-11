@@ -4,7 +4,6 @@ import { IoMdCall } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
 import { FcGoogle } from "react-icons/fc";
 import { FaStar } from "react-icons/fa";
-import { FaTv } from "react-icons/fa";
 import { MdOutlineTv } from "react-icons/md";
 import { FaNetworkWired } from "react-icons/fa";
 import { IoIosSwitch } from "react-icons/io";
@@ -21,6 +20,7 @@ import { services as serviceNames } from "@/data/services";
 import Link from "next/link";
 import axios from "axios";
 import { toast } from "sonner";
+import { GiThunderball } from "react-icons/gi";
 
 function page() {
 
@@ -50,9 +50,9 @@ function page() {
 
   const services = [
     {
-      name: "LED TV Repair",
-      subtext: "I fix screen, sound, power, and display problems.",
-      icon: <FaTv />
+      name: "Power fault solution",
+      subtext: "Quick diagnosis and repair for short circuits, power trips, voltage issues, and electrical breakdowns.",
+      icon: <GiThunderball />
     },
     {
       name: "TV Wall Installation",
